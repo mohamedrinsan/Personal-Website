@@ -270,3 +270,49 @@ button:hover{
     padding-bottom: 50px;
     background-color: #000;
 }
+
+@media screen and (max-width:480px) {
+     .promo-title{
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    .haedabout{
+        font-size: 28px;
+    }
+    .haedabout::before{
+        content: '';
+        background-color: #000;
+        height: 5px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    .SKILLS{
+        font-size: 28px;
+    }
+    .SKILLS::before{
+        content: '';
+        background-color: #000;
+        height: 5px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+    .SERVICES{
+        font-size: 28px;
+    }
+    .SERVICES::before{
+        content: '';
+        background-color: #000;
+        height: 5px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(63px);
+    }
+}
