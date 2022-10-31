@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+   
+body{
+    font-family: 'Dancing Script', cursive; 
+    font-family: 'Poppins', sans-serif;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+#nav-bar{
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* background-color: aqua; */
+}
+
+.navbar{
+    padding: 0px !important;
+    background-color: #fff;
+}
+
+#nav-bar .navbar-brand {
+    font-size: 36px;
+}
+.navbar-nav li{
+    padding: 0 15px;
+    padding-top: 18px;
+    padding-right: 50px;
+}
+
+.navbar .navbar-brand {  
+    padding-top: 18px;
+    padding-left: 50px;
+}
+
+.navbar-nav li a{
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.fa-bars{
+    color: #000;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    outline: none;
+}
+
+
+
+
+#banner{
+    padding-top: 5%;
+}
+#banner a i{
+    font-size: 20px;
+    color: #000;
+}
+.promo-title{
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.promo-p{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.promo-pp{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.col-md-6 img{
+    border-radius: 50%;
+}
+#banner .btn-hom{
+    transition: 0.6s;
+}
+.btn-hom:hover{
+    transform: translateY(-10px);
+}
+#banner .btn-hom{
+    background-color: #000;
+    color: #fff;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+#services{
+    padding: 80px 0;
+}
+
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services{
+    padding: 20px;
+}
+
+#services .services{
+    transition: 0.5s;
+}
+
+#services .services:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.SERVICES{
+    padding-top: 145px;
+    padding-bottom: 80px;
+}
+.SERVICES::before{
+    content: '';
+    background-color: #000;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+#services .btn-primary{
+    background-color: #000;
+    color: #fff;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+}
+
+#services button{
+    transition: 0.6s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+#about-us{
+    padding-bottom: 320px;
+    padding-top: 106px;
+}
+
+.haedabout{
+    padding-bottom:180px;
+}
+
+.haedabout::before{
+    content: '';
+    background-color: #000;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+
+.abtcntp{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.abt-bx{
+    transition: 0.3s;
+}
+
+.abt-bx:hover{
+    transform: translateY(-10px);
+}
+
+#about-us .btn-sec{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+}
+#about-us button{
+    position: relative;
+    top: 100px;
+}
+
+#about-us button{
+    transition: 0.6s;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+
+
+.SKILLS{
+    padding-top: 156px;
+    padding-bottom:150px;
+}
+
+.SKILLS::before{
+    content: '';
+    background-color: #000;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+#skills P:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#skills P{
+    position: relative;
+    left: 130px;
+    width:110px;
+}
+#skills .row{
+    padding-bottom: 20px;
+}
+
+#skills h2{
+    font-size: 26px;
+}
+
+#footer h4{
+    font-size: 16px;
+}
+
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #000;
+}
