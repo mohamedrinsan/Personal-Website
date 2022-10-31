@@ -276,6 +276,9 @@ button:hover{
         font-size: 45px;
         margin-top: 20px;
     }
+    .promo-pp{
+        font-size: 18px;
+    }
     .haedabout{
         font-size: 28px;
     }
@@ -288,6 +291,9 @@ button:hover{
         margin-right: auto;
         display: block;
         transform: translateY(63px);
+    }
+    .abtcntp{
+        font-size: 18px;
     }
     .SKILLS{
         font-size: 28px;
@@ -314,5 +320,27 @@ button:hover{
         margin-right: auto;
         display: block;
         transform: translateY(63px);
+    }
+    #skills P{
+        position: relative;
+        left: 105px;
+        
+    }
+    #skills h4{
+        font-size: 20px;
+    }
+    .services h4{
+        font-size: 20px;
+    }
+    #nav-bar .navbar-brand {
+        font-size: 30px;
+    }
+    .SKILLS{
+        padding-top: 0px;
+        /* padding-top: 156px; */
+        padding-bottom:55px;
+    }
+    .SERVICES{
+        padding-top: 0px;
     }
 }
