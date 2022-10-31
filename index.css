@@ -90,6 +90,10 @@ html {
 .col-md-6 img{
     border-radius: 50%;
 }
+#CV{
+    color: #fff;
+    text-decoration: none;
+}
 #banner .btn-hom{
     transition: 0.6s;
 }
@@ -97,6 +101,7 @@ html {
     transform: translateY(-10px);
 }
 #banner .btn-hom{
+    
     background-color: #000;
     color: #fff;
     box-shadow: none;
